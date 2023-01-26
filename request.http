@@ -1,0 +1,33 @@
+###
+
+GET http://localhost:9000/API HTTP/1.1
+
+Content-Type: application/json
+
+###
+
+POST  http://localhost:9000/API HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo":"breve vida",
+    "autor":"carser bero",
+    "edicion":"44"
+}
+
+
+###
+
+DELETE http://localhost:9000/API/2 HTTP/1.1
+
+
+
+###
+PUT http://localhost:9000/API/3 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo":"caos colapsados",
+    "autor":"sthempen towirks",
+    "edicion":"25"
+}
